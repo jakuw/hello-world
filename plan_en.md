@@ -2,14 +2,14 @@
  
  ## Arduino configuration
  ### Download Arduino IDE
- Links to the software is available on the website: https://www.arduino.cc/en/Main/Software.
+ Link to the software is available on the website: https://www.arduino.cc/en/Main/Software.
  ### Test the Arduino Board 
- The easiest way to test the Arduino board is to load "Blink" example.
+ The easiest way to test the Arduino board is to load the "Blink" example.
  You can find the project in the menu File/Examples/01.Basics/Blink or go throught tutorial: https://www.arduino.cc/en/Tutorial/Blink.
  ### Install the LMIC-Arduino library 
  Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
- ## Portal thethingsnetwork.com
- ### Zarejestrowac się
+ ## www.thethingsnetwork.com portal
+ ### Sign up or login if you have account
  ### Utworzyć nową apliakcję oraz czujnik
  ## Uzyskać dane do portalu PŁ "LoraStore"
  ## Arduino + LoRa
