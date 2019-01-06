@@ -10,12 +10,13 @@
  Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
  ## thethingsnetwork.com portal
  ### Sign up or login if you have an account
- ### Create new application and sensor
- ## Uzyskać dane do portalu PŁ "LoraStore"
+ ### Create new application and add device
+ ## Get date to PŁ "LoraStore" portal
+ Ask administrator for them.
  ## Arduino + LoRa
- ### Open example "ttn-abp" from LMIC-Arduino library
+ ### Open example "ttn-abp" from LMIC-Arduino library.
  ### Connect 1 sensor and tt-tul-node-v1 board with rfm95w to Arduino
- ### Turn on the sensor and get the measurement. It will be used to modify the variable "value".
+ ### Turn on the sensor and get the measurement, which you will use later to modify the variable "value".
  ### Replace following network data:
  			i. NWKSKEY
  			ii. APPSKEY
@@ -23,7 +24,7 @@
  ### Replace default "Hello World" message with Json, which contains:
  			i. SensorId (String)
  			ii. SensorPassword (String)
- 			iii. Value (zmienna real)
+ 			iii. Value (Real)
  ## Testing program
  ### Check on the console ttn website if data go throught the portal.
  ### Check if the endpoint is logging data: https://lorastore20181206101456.azurewebsites.net/api/Measurements?id=3 (Id is SensorId)
