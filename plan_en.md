@@ -2,9 +2,12 @@
  
  ## Arduino configuration
  ### Download Arduino IDE
- Li
- ### Przetestować płytkę (wgrać i przetestować blinka)
- ### ainstalowac bibliotekę: LMIC-Arduino
+ Links to the software is available on the website: https://www.arduino.cc/en/Main/Software.
+ ### Test the Arduino Board 
+ The easiest way to test the Arduino board is to load "Blink" example.
+ You can find the project in the menu File/Examples/01.Basics/Blink or go throught tutorial: https://www.arduino.cc/en/Tutorial/Blink.
+ ### Install the LMIC-Arduino library 
+ Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
  ## Portal thethingsnetwork.com
  ### Zarejestrowac się
  ### Utworzyć nową apliakcję oraz czujnik
