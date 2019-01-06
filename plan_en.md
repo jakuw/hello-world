@@ -9,7 +9,7 @@
  ### Install the LMIC-Arduino library 
  Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
  ## thethingsnetwork.com portal
- ### Sign up or login if you have account
+ ### Sign up or login if you have an account
  ### Create new application and sensor
  ## Uzyskać dane do portalu PŁ "LoraStore"
  ## Arduino + LoRa
