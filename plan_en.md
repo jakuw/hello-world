@@ -15,7 +15,7 @@
  Ask administrator for them.
  ## Arduino + LoRa
  ### Open example "ttn-abp" from LMIC-Arduino library.
- ### Connect 1 sensor and tt-tul-node-v1 board with rfm95w to Arduino
+ ### Connect 1 sensor and tt-tul-node-v1 board with rfm95w to Arduino.
  ### Turn on the sensor and get the measurement, which you will use later to modify the variable "value".
  ### Replace following network data:
  			i. NWKSKEY
