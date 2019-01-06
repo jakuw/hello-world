@@ -8,22 +8,22 @@
  You can find the project in the menu File/Examples/01.Basics/Blink or go throught tutorial: https://www.arduino.cc/en/Tutorial/Blink.
  ### Install the LMIC-Arduino library 
  Go to Sketch/Include Library\Manage Libraries... and search for "LMIC-Arduino". Install the newest version.
- ## www.thethingsnetwork.com portal
+ ## thethingsnetwork.com portal
  ### Sign up or login if you have account
- ### Utworzyć nową apliakcję oraz czujnik
+ ### Create new application and sensor
  ## Uzyskać dane do portalu PŁ "LoraStore"
  ## Arduino + LoRa
- ### Uruchomić sample ttn-abp z biblioteki LMIC-Arduino
- ### Podpiąć pod arduino tt-tul-node-v1 board z rfm95w oraz 1 dowolnym czujnikiem
- ### Uruchomić czujnik, wartośc odczytu z czujnika wykorzystac dalej gdy będzie potrzebna zmienna value
- ### Podmienić dane dotyczące sieci:
+ ### Open example "ttn-abp" from LMIC-Arduino library
+ ### Connect 1 sensor and tt-tul-node-v1 board with rfm95w to Arduino
+ ### Turn on the sensor and get the measurement. It will be used to modify the variable "value".
+ ### Replace following network data:
  			i. NWKSKEY
  			ii. APPSKEY
  			iii. DEVADDR
- ### Zamienić domyślną wysyłaną wiadomość "Hello World" na Jsona zawierającego:
+ ### Replace default "Hello World" message with Json, which contains:
  			i. SensorId (String)
  			ii. SensorPassword (String)
  			iii. Value (zmienna real)
- ## Testowanie działania programu
- ### Spawdzić na stronie console ttn czy widac ze dane przechodzą przez portal
- ### Sprawdzić czy endpoint logguje wyniki: https://lorastore20181206101456.azurewebsites.net/api/Measurements?id=3 (gdzie id to numer SensorId)
+ ## Testing program
+ ### Check on the console ttn website if data go throught the portal.
+ ### Check if the endpoint is logging data: https://lorastore20181206101456.azurewebsites.net/api/Measurements?id=3 (Id is SensorId)
